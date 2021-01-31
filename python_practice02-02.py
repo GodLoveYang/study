@@ -33,6 +33,6 @@ class XuZhu(Tonglao):
     def read(self):
         print("罪过罪过")
 
-tl = Tonglao(10,100)
+tl = Tonglao(20,100)
 tl.fight_zms(5,200)
 xz = XuZhu(50,100)
