@@ -8,8 +8,8 @@ my_hp = hp - enemy_power
 enemy_final_hp = enemy_hp - my_power
 谁的hp先为0，那么谁就输了
 """
-
-def fight():
+#1、定义自己和敌人角色名称、血量、力量
+def game():
     enemy_name = input("请输入角色名称：")
     enemy_hp = int(input("请输入角色血量："))
     enemy_power = int(input("请输入角色力量："))
@@ -35,4 +35,4 @@ def fight():
 
 if __name__ == "__main__":
     # role_messages()
-    fight()
+    game()
